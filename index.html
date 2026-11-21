@@ -1,1 +1,99 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Riya ❤️</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ min-height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding:20px;
+ background:linear-gradient(135deg,#ff758c,#ff7eb3,#ffc3a0);
+ font-family:Georgia,serif;
+ color:#8b1745;
+ text-align:center;
+}
+.card{
+ max-width:390px;
+ width:100%;
+ background:#fff8fb;
+ padding:25px;
+ border-radius:25px;
+ box-shadow:0 10px 35px #8b174555;
+}
+h1{color:#e83e75;font-size:32px}
+.photo{
+ width:100%;
+ height:320px;
+ object-fit:cover;
+ border-radius:18px;
+ border:4px solid #ffc0d5;
+}
+p{line-height:1.8;font-size:17px}
+button{
+ background:#e83e75;
+ color:white;
+ border:0;
+ padding:14px 25px;
+ border-radius:30px;
+ font-size:17px;
+ cursor:pointer;
+}
+#message{
+ display:none;
+ margin-top:20px;
+ background:#ffe4ee;
+ padding:15px;
+ border-radius:15px;
+}
+.heart{font-size:25px}
+</style>
+</head>
+
+<body>
+<div class="card">
+ <div class="heart">❤️ 💗 ❤️</div>
+ <h1>For My Riya</h1>
+
+ <img class="photo" src="riya.jpg" alt="Riya">
+
+ <h2>Dear Riya 🥺❤️</h2>
+
+ <p>
+ You are a very special person in my life.
+ Your smile makes my days beautiful.
+ </p>
+
+ <button onclick="showLove()">
+ Open Your Surprise 💌
+ </button>
+
+ <div id="message">
+  <h2>My Special Message ❤️</h2>
+  <p>
+   Riya, I may not have a thousand words
+   to express my feelings, but I want you
+   to know that you are very special to me.
+   <br><br>
+   With lots of love,<br>
+   Yours, Deep ❤️
+  </p>
+  <div class="heart">💗🌹💗</div>
+ </div>
+</div>
+
+<script>
+function showLove(){
+ document.getElementById("message").style.display="block";
+}
+</script>
+</body>
+</html>
